@@ -1,0 +1,149 @@
+body{
+    background-color:#99d6ff;
+    font-family:"Helvetica", sans-serif;
+    font-size:20px;
+}
+.main-header{
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background-color:#ff5050;
+    font-family: "Verdana",serif;
+    font-size: 21px;
+    border-style:solid;
+
+}
+#main-heading,p{
+  padding: 10px;
+  margin: 10px;
+    color:black;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.column a:hover, a:active {
+    background-color: #004d00;
+    color: white;
+}
+div h2{
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-text{
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+ul .active {
+    background-color: #4CAF50;
+}
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-list {
+    display:inline-block;
+    background-color: white;
+
+}
+.search{
+  float: right;
+}
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.search button {
+  float: right;
+  width: 60px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 5px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.search button:hover {
+  background: #ccc;
+}
+
+.footer {
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,22 @@
+h1{
+  font-family:"Lucida" Grande, sans-serif;
+  text-align: center;
+  border-color: grey;
+  border: 5px solid  rgba(10,10,0,0.5);
+
+}
+div{
+  
+  margin-top:5px;
+  color: white;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+
+}
+.login{
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visit Malaysia 2018</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+<!-- Header -->
+    <div class="header">
+      <h1 class="header-text">Visit Malaysia 2018</h1>
+      <p>Everything to help you explore this country better</p>
+    </div>
+<!-- Menu Bar -->
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="places-home.html">Places</a>
+  <li><a href="hotel.html">Hotels</a></li>
+  <li><a href="food.html">Foods</a></li>
+  <li><a href="video.html">Videos</a></li>
+  <li><a href="maps.html">Maps</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+  <li><a href="about.html">About</a></li>
+  <div class="search">
+        <gcse:searchbox-only resultsUrl="https://www.google.com/search?"></gcse:searchbox-only>
+              <script>
+                (function() {
+                  var cx = '000888210889775888983:pqb3ch1ewhg';
+                  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                      '//www.google.com/cse/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+                })();
+              </script>
+
+    </div>
+</ul>
+
+
+
+<div id="map"></div>
+        <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -34.397, lng: 150.644},
+              zoom: 8
+            });
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE5diKZlnY9wtqL1xXmDMtkdaIAxB0m48&callback=initMap"
+        async defer></script>
+
+
+
+<footer class="footer">
+  <p>Copyright 2018</p>
+</footer>
+
+  </body>
+
+</html>
